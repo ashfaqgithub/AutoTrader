@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="none">
+  <test name="Test_AutoTrader">
+    <classes>
+      <class name="test.TC004"/>
+      <class name="test.TC003"/>
+      <class name="test.TC002"/>
+      <class name="test.TC001"/>
+      <class name="test.TC006"/>
+      <class name="test.TC005"/>
+    </classes>
+  </test> <!-- Test_AutoTrader -->
+</suite> <!-- Regression -->

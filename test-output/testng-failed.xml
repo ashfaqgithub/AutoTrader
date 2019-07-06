@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]" parallel="none">
+  <test name="Test_AutoTrader(failed)" parallel="none">
+    <classes>
+      <class name="test.TC002">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- test.TC002 -->
+      <class name="test.TC004">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- test.TC004 -->
+      <class name="test.TC003">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="CarSearch"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- test.TC003 -->
+      <class name="test.TC001">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- test.TC001 -->
+      <class name="test.TC006">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- test.TC006 -->
+      <class name="test.TC005">
+        <methods>
+          <include name="beforeTestStart"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- test.TC005 -->
+    </classes>
+  </test> <!-- Test_AutoTrader(failed) -->
+</suite> <!-- Failed suite [Regression] -->
